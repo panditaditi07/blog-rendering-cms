@@ -5,7 +5,6 @@ function Footer({ footer }) {
   return (
     <>
       <Head>
-        <title>Footer</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           rel="stylesheet"

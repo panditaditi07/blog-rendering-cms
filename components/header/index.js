@@ -6,7 +6,6 @@ function Header({ header }) {
   return (
     <>
       <Head>
-        <title>Header</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           rel="stylesheet"
