@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+.footer-heading {
+  padding-top: 5px;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+
+  color: white;
+}
+@media (max-width: 780px) {
+  .footer-heading {
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .footer-heading {
+    font-size: 12px;
+  }
+}

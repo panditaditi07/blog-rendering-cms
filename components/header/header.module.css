@@ -1,0 +1,30 @@
+.top-nav {
+  height: 100%;
+
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  margin: 0px;
+  background-color: black;
+  font-family: "Josefin Sans", sans-serif;
+}
+.logo-container {
+  width: 70%;
+  color: white;
+}
+
+.link {
+  color: white;
+  font-size: 50px;
+}
+
+@media (max-width: 690px) {
+  .top-nav {
+    flex-direction: column;
+  }
+  .logo-container {
+    width: 60%;
+  }
+}
